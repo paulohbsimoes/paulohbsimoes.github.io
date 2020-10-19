@@ -1,76 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Paulo Simões</title>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-size: 1.2rem; font-family: 'Ubuntu', sans-serif"> <!-- Só usarei CSS para mudar a fonte -->
-  <header>
+
+<body>
+  <header id="portfolio_web">
     <h1>Portfólio - Web</h1>
-    <p>Este portfólio será desenvolvido ao longo do curso na Trybe, com exceção da configuração da fonte, inicialmente usarei somente HTML.</p>
+    <p>Este portfólio será desenvolvido ao longo do curso na Trybe, com exceção da configuração da fonte,
+      inicialmente usarei somente HTML.</p>
   </header>
 
-  <section id="nome_e_foto">
-    <!-- Seu nome completo; -->
-    <h2>Paulo Henrique Basílio Simões</h1>
-    <!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
-    <img src="./assets/foto_perfil.png" alt="Foto de Paulo Simões" width="150px">
-    <!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
-  </section>
+  <div class="container">
+    <section id="nome_e_foto">
+      <!-- Seu nome completo; -->
+      <h2>Paulo Henrique Basílio Simões</h2>
+      <!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
+      <a href="./assets/foto_perfil.png"><img src="./assets/foto_perfil.png" alt="Foto de Paulo Simões"
+          width="150px"></a>
+    </section>
 
-  <section id="indice">
-    <h2>Índice</h2>
-    <ul>
-      <li><a href="#descricao">Descrição</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#links">Links</a></li>
-    </ul>
-  </section>
-
-  <section id="descricao">
-    <h2>Descrição:</h2>
-    <p>Tenho <strong>24 anos</strong>, moro em <strong>Serra/ES</strong>. Sou apaixonado por música e tecnologia.<br/>
-    Trabalhei a maior parte do tempo como administrador de redes, porém, sempre estudei programação por conta própria, através de: livros, artigos e vídeos.</br>
-    Este ano decidi mudar de vez de setor e estou focado em aprender as tecnologias mais utilizadas no mercado de desenvolvimento web e em desenvolver minhas <em>soft skills</em>. </p>
-  </section>
-
-  <section id="habilidades">
-    <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
-    <h2>Habilidades:</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Manutenção de computadores</li>
-      <li>Montagem de Redes de Computadores</li>
-      <li>Foco</li>
-      <li>Disciplina</li>
-      <li>Persistência</li>
-    </ul>
-  </section>  
-
-  <section id="links">
-    <h2>Links:</h2>
-    <a href="./assets/foto_perfil.png" target="_blank">Foto ampliada</a><br/>
-    <h3>Redes sociais:</h3>
-    <a href="https://www.linkedin.com/in/paulohbsimoes" target="_blank">LinkedIn</a><br/>
-    <a href="https://www.instagram.com/paulohbsimoes" target="_blank">Instagram</a><br/>
-    <!-- Um link interno para a sua foto; -->
-    <h3>Indicações de conteúdo:</h3>
-    <!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
-    <a href="https://shiffman.net/" target="_blank">Daniel Shiffman</a><br/>
-    <a href="https://www.youtube.com/channel/UCTBGXCJHORQjivtgtMsmkAQ" target="_blank">Steve Griffith</a></br>
-    <a href="https://www.youtube.com/user/irideabanana" target="_blank">uidotdev</a><br/>
-    <!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
     <!-- Um índice com links internos para as diferentes seções do seu portfólio. -->
-  </section>
+    <section id="indice">
+      <h2>Índice</h2>
+      <ul>
+        <li><a href="#descricao">Descrição</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#links">Links</a></li>
+      </ul>
+    </section>
 
-  <br/>
+    <section id="descricao">
+      <!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
+      <!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
+      <h2>Descrição:</h2>
+      <p>Tenho <strong>24 anos</strong>, moro em <strong>Serra/ES</strong>. Sou apaixonado por música e tecnologia.
+        Trabalhei a maior parte do tempo como administrador de redes, porém, sempre estudei programação por conta
+        própria, através de: livros, artigos e vídeos. Este ano decidi mudar de vez de setor e estou focado em aprender
+        as tecnologias mais utilizadas no mercado de desenvolvimento web e em desenvolver minhas <em>softskills</em>.
+      </p>
+    </section>
+
+    <section id="habilidades">
+      <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
+      <h2>Habilidades:</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Manutenção de computadores</li>
+        <li>Montagem de Redes de Computadores</li>
+        <li>Foco</li>
+        <li>Disciplina</li>
+        <li>Persistência</li>
+      </ul>
+    </section>
+
+    <section id="links">
+      <h2>Links:</h2>
+
+      <div class="container">
+
+        <h3>Redes sociais:</h3>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/paulohbsimoes" target="_blank">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/paulohbsimoes" target="_blank">Instagram</a></li>
+        </ul>
+
+        <!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
+        <h3>Indicações de conteúdo:</h3>
+        <ul>
+          <li><a href="https://shiffman.net/" target="_blank">Daniel Shiffman</a></li>
+          <li><a href="https://www.youtube.com/channel/UCTBGXCJHORQjivtgtMsmkAQ" target="_blank">Steve Griffith</a></li>
+          <li><a href="https://www.youtube.com/user/irideabanana" target="_blank">uidotdev</a></li>
+        </ul>
+
+      </div>
+    </section>
+
+  </div>
 
   <footer>
-    <a href="#nome_e_foto">Voltar para o topo</button>
+    <a href="#portfolio_web">Voltar para o topo</a>
   </footer>
+
 </body>
+
 </html>
