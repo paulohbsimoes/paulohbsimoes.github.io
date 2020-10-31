@@ -4,4 +4,4 @@ Repositório que utilizarei para montar um portfólio ao longo do meu aprendizad
 - [x] Estrutura HTML
 - [x] Estilização CSS
 
-[GitHub Pages](https://paulohbsimoes.github.io/portfolio-web/)
+[GitHub Pages](https://paulohbsimoes.github.io)
